@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7e65f121-a75e-442a-acd2-7a4e85216557" name="photo_gallery" url="http://localhost/shared_gallery">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\shared_gallery" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
