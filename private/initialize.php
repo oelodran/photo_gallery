@@ -38,3 +38,4 @@ spl_autoload_register('my_autoload');
 
 
 $database = db_connect();
+Photo::set_database($database);
