@@ -72,10 +72,32 @@ class Photo
     public $image;
     public $created_at;
 
+    private $temp_path;
+    public $errors = [];
+
+    protected $upload_errors = [
+        UPLOAD_ERR_OK => "No errors.",
+        UPLOAD_ERR_INI_SIZE => "Large then upload_max_filesize.",
+        UPLOAD_ERR_FORM_SIZE => "Large then form MAX_FILE_SIZE.",
+        UPLOAD_ERR_PARTIAL => "Partial upload.",
+        UPLOAD_ERR_NO_FILE => "No file.",
+        UPLOAD_ERR_NO_TMP_DIR => "No temporary directory.",
+        UPLOAD_ERR_EXTENSION => "File upload stopped by extension."
+        ];
+
     public function __construct($args=[])
     {
-        $this->user_id = $args['user_id'] ?? '';
-        $this->name = $args['name'] ?? '';
-        $this->image = $args['image'] ?? '';
+        if (!$args || empty($args) || !is_array($args)) {
+            $this->errors[] = "No file was uploaded.";
+            return false;
+        } elseif ($args['error'] != 0) {
+            $this->errors[] = $this->upload_errors[$args['error']];
+            return false;
+        } else {
+            $this->temp_path = $args['tmp_path'] ?? '';
+            $this->user_id = $args['user_id'] ?? '';
+            $this->name = basename($args['name']) ?? '';
+            $this->image = $args['image'] ?? '';
+        }
     }
 }
