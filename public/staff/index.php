@@ -14,7 +14,7 @@ $photos = Photo::find_all();
     <?php foreach ($photos as $photo) { ?>
     <tr>
         <td><?php echo h($photo->name); ?></td>
-        <td><?php echo h($photo->image); ?></td>
+        <td><?php echo '<img src="data:image; base64,' . h(base64_encode($photo->image)) . '"'; ?></td>
         <td><?php echo h($photo->created_at); ?></td>
     </tr>
     <?php } ?>
