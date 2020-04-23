@@ -7,10 +7,7 @@
  */
 
 define("DB_SERVER", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "leon");
-define("DB_NAME", "shared_gallery");
+define("DB_USER", "shared");
+define("DB_PASS", "secret123");
+define("DB_NAME", "gallery");
 
-$dsn = 'mysql:host=' . DB_SERVER . ';dbname=' . DB_NAME;
-
-define("DSN", $dsn);

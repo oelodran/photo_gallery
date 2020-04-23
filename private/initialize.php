@@ -22,6 +22,8 @@ define("WWW_ROOT", $doc_root);
 require_once ('functions.php');
 require_once ('db_credentials.php');
 require_once ('database_functions.php');
+require_once ('validation_functions.php');
+require_once ('status_error_functions.php');
 
 // -> All classes in directory
 foreach(glob('classes/*.php') as $file) {
@@ -38,4 +40,6 @@ spl_autoload_register('my_autoload');
 
 
 $database = db_connect();
-Photo::set_database($database);
+DatabaseObject::set_database($database);
+
+$session = new Session();

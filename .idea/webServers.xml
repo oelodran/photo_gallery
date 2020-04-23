@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7e65f121-a75e-442a-acd2-7a4e85216557" name="photo_gallery" url="http://localhost/shared_gallery/shared_gallery">
-        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs" accessType="MOUNT" />
+      <webServer id="7e65f121-a75e-442a-acd2-7a4e85216557" name="photo_gallery" url="http://localhost/gallery">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\www\gallery" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

@@ -11,7 +11,7 @@ require_login();
 
 if (!isset($_GET['id']))
 {
-    redirect_to(url_for('/user/users/delete.php'));
+    redirect_to(url_for('/user/users/index.php'));
 }
 $id = $_GET['id'];
 $user = User::find_by_id($id);
@@ -30,7 +30,7 @@ if (is_post_request())
     if ($result === true)
     {
         $session->message('The admin was updated successfully.');
-        redirect_to(url_for('/user/users/index.php?id=' . $id));
+        redirect_to(url_for('/user/users/index.php?id=' . h(u($id))));
     }
     else
     {

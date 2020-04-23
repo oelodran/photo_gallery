@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8b2ee01-b996-4f83-b324-75e165b945fb" name="Default" comment="Designing public/index page with bootstrap">
+      <change afterPath="$PROJECT_DIR$/private/classes/DatabaseObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private/classes/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private/status_error_functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascrypt/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascrypt/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascrypt/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascrypt/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascrypt/tether.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/my_stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/photo/count_photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/photo/delete_photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/photo/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/photo/photo_upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/users/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/users/form_fields.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/users/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/users/management.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/users/my_account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/user/users/new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/classes/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/Photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/database_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/database_functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/db_credentials.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/db_credentials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/initialize.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/initialize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/staff_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/user_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/shared/staff_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/user_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/validation_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/validation_functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/staff/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/user/users/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/users/edit.php" afterDir="false" />
+    </list>
+    <list id="efaab886-80bc-459c-a8e4-b40bee53556b" name="New changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/shared/public_header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>erro</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/private/functions.php" />
+        <option value="$PROJECT_DIR$/private/class/User.php" />
+        <option value="$PROJECT_DIR$/private/classes/Photos.php" />
+        <option value="$PROJECT_DIR$/public/work_with_file.php" />
+        <option value="$PROJECT_DIR$/file_premissions.php" />
+        <option value="$PROJECT_DIR$/file_permissions.php" />
+        <option value="$PROJECT_DIR$/private/shared/staff_footer.php" />
+        <option value="$PROJECT_DIR$/public/staff/index.php" />
+        <option value="$PROJECT_DIR$/phpinfo.php" />
+        <option value="$PROJECT_DIR$/public/staff/photo_upload.php" />
+        <option value="$PROJECT_DIR$/private/database_functions.php" />
+        <option value="$PROJECT_DIR$/public/staff/photo/delete_photo.php" />
+        <option value="$PROJECT_DIR$/public/staff/photo/index.php" />
+        <option value="$PROJECT_DIR$/public/staff/photo/photo_upload.php" />
+        <option value="$PROJECT_DIR$/public/staff/users/index.php" />
+        <option value="$PROJECT_DIR$/public/staff/users/my_account.php" />
+        <option value="$PROJECT_DIR$/private/shared/staff_header.php" />
+        <option value="$PROJECT_DIR$/private/classes/DatabaseObject.php" />
+        <option value="$PROJECT_DIR$/private/validation_functions.php" />
+        <option value="$PROJECT_DIR$/private/classes/User.php" />
+        <option value="$PROJECT_DIR$/private/initialize.php" />
+        <option value="$PROJECT_DIR$/public/logout.php" />
+        <option value="$PROJECT_DIR$/private/status_error_functions.php" />
+        <option value="$PROJECT_DIR$/private/classes/Session.php" />
+        <option value="$PROJECT_DIR$/public/user/users/edit.php" />
+        <option value="$PROJECT_DIR$/public/user/index.php" />
+        <option value="$PROJECT_DIR$/public/user/photo/index.php" />
+        <option value="$PROJECT_DIR$/private/classes/Photo.php" />
+        <option value="$PROJECT_DIR$/public/user/photo/photo_upload.php" />
+        <option value="$PROJECT_DIR$/public/user/photo/count_photos.php" />
+        <option value="$PROJECT_DIR$/public/user/users/management.php" />
+        <option value="$PROJECT_DIR$/public/user/users/my_account.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/user/photo/delete_photo.php" />
+        <option value="$PROJECT_DIR$/public/user/users/delete.php" />
+        <option value="$PROJECT_DIR$/public/user/users/new.php" />
+        <option value="$PROJECT_DIR$/public/user/users/form_fields.php" />
+        <option value="$PROJECT_DIR$/private/db_credentials.php" />
+        <option value="$PROJECT_DIR$/private/shared/public_footer.php" />
+        <option value="$PROJECT_DIR$/private/shared/user_footer.php" />
+        <option value="$PROJECT_DIR$/public/user/users/index.php" />
+        <option value="$PROJECT_DIR$/private/shared/user_header.php" />
+        <option value="$PROJECT_DIR$/private/shared/public_header.php" />
+        <option value="$PROJECT_DIR$/public/login.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="red&#9;null&#9;null&#10;url_for&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/stylesheets" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\shared_gallery\shared_gallery\public\staff\photo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\gallery\public\stylesheets" />
+      <recent name="C:\xampp\htdocs\shared_gallery\shared_gallery\public\javascrypt" />
+      <recent name="C:\xampp\htdocs\shared_gallery\shared_gallery\private" />
+      <recent name="C:\xampp\htdocs\shared_gallery\shared_gallery\public\user\users" />
+      <recent name="C:\xampp\htdocs\shared_gallery\shared_gallery\public\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="user" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="public/user" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.user" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8b2ee01-b996-4f83-b324-75e165b945fb" name="Default" comment="" />
+      <changelist id="efaab886-80bc-459c-a8e4-b40bee53556b" name="New changelist" comment="" />
+      <created>1551784701713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551784701713</updated>
+      <workItem from="1551784703620" duration="7231000" />
+      <workItem from="1551865726265" duration="17168000" />
+      <workItem from="1551947764683" duration="5884000" />
+      <workItem from="1552033854774" duration="11388000" />
+      <workItem from="1552132167844" duration="623000" />
+      <workItem from="1552295331587" duration="4794000" />
+      <workItem from="1552391481489" duration="987000" />
+      <workItem from="1552476743832" duration="1208000" />
+      <workItem from="1552566101614" duration="1189000" />
+      <workItem from="1552984477628" duration="5407000" />
+      <workItem from="1553602725396" duration="1543000" />
+      <workItem from="1554195784610" duration="1383000" />
+      <workItem from="1554197226800" duration="10986000" />
+      <workItem from="1554283893269" duration="1429000" />
+      <workItem from="1554713152182" duration="17551000" />
+      <workItem from="1554820333809" duration="596000" />
+      <workItem from="1555151727746" duration="926000" />
+      <workItem from="1555329379477" duration="373000" />
+      <workItem from="1555407323949" duration="11685000" />
+      <workItem from="1555491944717" duration="7379000" />
+      <workItem from="1555573004121" duration="1776000" />
+      <workItem from="1556016199195" duration="1185000" />
+      <workItem from="1556105767962" duration="1169000" />
+      <workItem from="1556277001883" duration="1858000" />
+      <workItem from="1556803455784" duration="1621000" />
+      <workItem from="1557386902254" duration="19540000" />
+      <workItem from="1557480769550" duration="17461000" />
+      <workItem from="1557558951906" duration="8278000" />
+      <workItem from="1557589098285" duration="905000" />
+      <workItem from="1557648257834" duration="6318000" />
+      <workItem from="1557757317981" duration="8078000" />
+      <workItem from="1557821615454" duration="1919000" />
+      <workItem from="1557824992276" duration="9034000" />
+      <workItem from="1557921453518" duration="12550000" />
+      <workItem from="1557996561029" duration="10436000" />
+      <workItem from="1558180436311" duration="15363000" />
+      <workItem from="1558281561837" duration="5819000" />
+      <workItem from="1558334648815" duration="10722000" />
+      <workItem from="1558355916730" duration="8818000" />
+      <workItem from="1558429969727" duration="2967000" />
+      <workItem from="1558514222810" duration="3459000" />
+      <workItem from="1558597462048" duration="11902000" />
+      <workItem from="1558617770195" duration="3469000" />
+      <workItem from="1558636410878" duration="2987000" />
+      <workItem from="1558694181739" duration="5561000" />
+      <workItem from="1559056391453" duration="220000" />
+      <workItem from="1559057774514" duration="1219000" />
+      <workItem from="1559131620436" duration="1275000" />
+      <workItem from="1559228495069" duration="2519000" />
+      <workItem from="1559300299159" duration="2366000" />
+      <workItem from="1559545573337" duration="13554000" />
+      <workItem from="1559648499774" duration="1468000" />
+      <workItem from="1559721236712" duration="7012000" />
+      <workItem from="1559810485728" duration="16525000" />
+      <workItem from="1559893596025" duration="7316000" />
+      <workItem from="1587629794119" duration="276000" />
+      <workItem from="1587630293869" duration="7319000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1551800426816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551800426816</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added public_footer, public_header, staff_footer, staff_header">
+      <created>1551891189948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551891189948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Made a connection to the database">
+      <created>1551955655849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551955655849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Start with active record design patterns">
+      <created>1552054714572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552054714572</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Designing public/index page with bootstrap">
+      <created>1554222832740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554222832740</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Designing public/index page with bootstrap">
+      <created>1554283995769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554283995769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Designing public/index page with bootstrap">
+      <created>1554284092286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554284092286</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Make CRUD">
+      <created>1557824569547</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557824569547</updated>
+    </task>
+    <task id="LOCAL-00009" summary="End User. Start photograph.">
+      <created>1558192265464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558192265464</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="staff - 2019.04.08 at 17h 37m 22s.xml">
+      <configuration name="staff" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="user - 2019.05.10 at 18h 44m 49s.xml">
+      <configuration name="user" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="343999000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20367534" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32598424" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030257" side_tool="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32753164" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4969743" weight="0.32894737" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32924962" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23660031" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32753164" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967105" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030257" side_tool="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32753164" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4969743" weight="0.32894737" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32924962" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added public_footer, public_header, staff_footer, staff_header" />
+    <MESSAGE value="Made a connection to the database" />
+    <MESSAGE value="Start with active record design patterns" />
+    <MESSAGE value="Designing public/index page with bootstrap" />
+    <MESSAGE value="Make CRUD" />
+    <MESSAGE value="End User. Start photograph." />
+    <option name="LAST_COMMIT_MESSAGE" value="End User. Start photograph." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/javascrypt/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/work_with_file.php" />
+    <entry file="file://$PROJECT_DIR$/file_permissions.php" />
+    <entry file="file://$PROJECT_DIR$/phpinfo.php" />
+    <entry file="file://$PROJECT_DIR$/public/images/IMG_20181222_221633.jpg" />
+    <entry file="file://$PROJECT_DIR$/private/database_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/bamboo.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/images/buddhas.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/user/photo/count_photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/photo/delete_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/ford5.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/javascrypt/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/photo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/my_account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="32" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/photo/photo_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="64" column="14" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="64" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/management.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/validation_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="100" column="30" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/initialize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/classes/DatabaseObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="n#set_database#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#find_by_sql#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#find_all#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#find_by_id#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#instantiate#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#validate#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#create#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#update#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#save#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#merge_attributes#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#attributes#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#sanitized_attributes#0;n#DatabaseObject#0;n#!!top" />
+            <element signature="n#delete#0;n#DatabaseObject#0;n#!!top" />
+            <marker date="1557832420243" expanded="true" signature="845:859" ph="SELECT * FRO... ${static::$table_name}" />
+            <marker date="1557832420243" expanded="true" signature="998:1012" ph="SELECT * FRO... ${static::$table_name}" />
+            <marker date="1557832420243" expanded="true" signature="1984:2025" ph="INSERT INTO ${static::$table_name}... " />
+            <marker date="1557832420243" expanded="true" signature="4091:4103" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/form_fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/status_error_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/classes/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+          <folding>
+            <element signature="n#login#0;n#Session#0;n#!!top" />
+            <element signature="n#is_logged_in#0;n#Session#0;n#!!top" />
+            <element signature="n#logout#0;n#Session#0;n#!!top" />
+            <element signature="n#check_stored_login#0;n#Session#0;n#!!top" />
+            <element signature="n#last_login_is_recent#0;n#Session#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/my_stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/shared/public_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/shared/user_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/classes/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/classes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="106" column="54" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
+          <folding>
+            <element signature="n#create#0;n#User#0;n#!!top" />
+            <element signature="n#update#0;n#User#0;n#!!top" />
+            <element signature="n#find_by_username#0;n#User#0;n#!!top" />
+            <marker date="1558001279778" expanded="true" signature="3597:3611" ph="SELECT * FRO... ${static::$table_name}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/db_credentials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/shared/user_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="119" selection-start-line="22" selection-start-column="119" selection-end-line="22" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/shared/public_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
