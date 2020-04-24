@@ -9,12 +9,14 @@ if (is_post_request())
 {
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
+    $check = $_POST['check'] ?? '';
 
     // validation
     if (is_blank($username))
     {
         $errors[] = "Username cannot be blank.";
     }
+
     if (is_blank($password))
     {
         $errors[] = "Password cannot be blank.";
@@ -27,6 +29,11 @@ if (is_post_request())
         // test if user found and password is correct
         if ($user != false && $user->verify_password($password))
         {
+            if ($check === "checked")
+            {
+                //$username_encrypt = encrypt_cookie($username);
+                setcookie("rememberme", $username, time() + (86400 * 30), "/");
+            }
             // user logged in
             $session->login($user);
             redirect_to(url_for('/user/users/index.php?id=' . h(u($user->id))));

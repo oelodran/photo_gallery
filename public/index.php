@@ -7,6 +7,8 @@
  */
 require_once ('../private/initialize.php');
 
+is_remember_me();
+
 include (SHARED_PATH . '/public_header.php');
 
 $photos = Photo::find_all();
