@@ -26,7 +26,7 @@ class Session
         {
             // prevent session fixation attacks
             session_regenerate_id();
-            $this->admin_id = $_SESSION['user_id'] = $user->id;
+            $this->user_id = $_SESSION['user_id'] = $user->id;
             $this->username = $_SESSION['username'] = $user->username;
             $this->last_login = $_SESSION['last_login'] = time();
         }
@@ -39,8 +39,49 @@ class Session
         return isset($this->user_id) && $this->last_login_is_recent();
     }
 
+    public function decrypt_cookie($value)
+    {
+        // Store the cipher method in variable
+        $cipher = "AES-128-CTR";
+        // Get the cipher iv length
+        $iv_length = openssl_cipher_iv_length($cipher);
+        $options = 0;
+        $decryption_iv = '8565825542115032';
+        // Store the decryption key
+        $dec_key = "super_secret";
+        // Use openssl_decrypt() function to decrypt the data
+        $decrypted_string=openssl_decrypt ($value, $cipher, $dec_key, $options, $decryption_iv);
+        return $decrypted_string;
+    }
+
+    public function is_remember_me()
+    {
+
+            if (isset($_COOKIE["rememberme"]))
+            {
+                $value = $_COOKIE["rememberme"];
+
+                $decrypted_string = $this->decrypt_cookie($value);
+
+                echo $decrypted_string . '<br>';
+
+                $user = User::find_by_username($decrypted_string);
+                print_r($user);
+                if (!empty($user))
+                {
+                    $this->login($user);
+                    redirect_to(url_for('user/users/index.php?id=' . u(h($user->id))));
+                }
+            }
+
+    }
+
     public function logout()
     {
+        if (isset($_COOKIE['rememberme']))
+        {
+            setcookie("rememberme","", time() - 3600);
+        }
         unset($_SESSION['user_id']);
         unset($_SESSION['username']);
         unset($_SESSION['last_login']);

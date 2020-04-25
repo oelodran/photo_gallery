@@ -31,8 +31,8 @@ if (is_post_request())
         {
             if ($check === "checked")
             {
-                //$username_encrypt = encrypt_cookie($username);
-                setcookie("rememberme", $username, time() + (86400 * 30), "/");
+                $username_encrypt = encrypt_cookie($username);
+                setcookie("rememberme", $username_encrypt, time() + (86400 * 30));
             }
             // user logged in
             $session->login($user);

@@ -75,19 +75,32 @@ function decrypt_cookie($value)
     return $decrypted_string;
 }
 
-function is_remember_me()
+/*function is_remember_me()
 {
     if (isset($_COOKIE["rememberme"]))
     {
-        $users[] = User::find_by_username($_COOKIE["rememberme"]);
-        if (!empty($users))
+        $value = $_COOKIE["rememberme"];
+        // Store the cipher method in variable
+        $cipher = "AES-128-CTR";
+        // Get the cipher iv length
+        $iv_length = openssl_cipher_iv_length($cipher);
+        $options = 0;
+        $decryption_iv = '8565825542115032';
+        // Store the decryption key
+        $dec_key = "super_secret";
+        // Use openssl_decrypt() function to decrypt the data
+        $decrypted_string=openssl_decrypt ($value, $cipher, $dec_key, $options, $decryption_iv);
+
+        $user = User::find_by_username($decrypted_string);
+        if (!empty($user))
         {
-            foreach ($users as $user)
-            redirect_to(url_for('/user/users/index.php?id=' . $user->id));
+
+            redirect_to(url_for('/user/users/index.php?id=' . print_r($user->id)));
+
         }
     }
     else
     {
 
     }
-}
+}*/
