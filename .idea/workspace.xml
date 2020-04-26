@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8b2ee01-b996-4f83-b324-75e165b945fb" name="Default" comment="Designing public/index page with bootstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/Session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/user_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/user_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/mister no(4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tex2.jpg" beforeDir="false" />
     </list>
     <list id="efaab886-80bc-459c-a8e4-b40bee53556b" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,22 +45,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1382">
-              <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+            <state relative-caret-position="2100">
+              <caret line="105" column="3" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/classes/Session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="525">
+              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
               <folding>
                 <element signature="n#__construct#0;n#Session#0;n#!!top" />
                 <element signature="n#login#0;n#Session#0;n#!!top" />
                 <element signature="n#is_logged_in#0;n#Session#0;n#!!top" />
                 <element signature="n#decrypt_cookie#0;n#Session#0;n#!!top" />
+                <element signature="n#is_remember_me#0;n#Session#0;n#!!top" />
+                <element signature="n#logout#0;n#Session#0;n#!!top" />
+                <element signature="n#check_stored_login#0;n#Session#0;n#!!top" />
                 <element signature="n#last_login_is_recent#0;n#Session#0;n#!!top" />
                 <element signature="n#message#0;n#Session#0;n#!!top" />
                 <element signature="n#clear_message#0;n#Session#0;n#!!top" />
@@ -74,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="148">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -215,10 +213,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;module" />
     <property name="SearchEverywhereHistoryKey" value="red&#9;null&#9;null&#10;url_for&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shared_gallery" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -325,7 +323,8 @@
       <workItem from="1587629794119" duration="276000" />
       <workItem from="1587630293869" duration="15852000" />
       <workItem from="1587712428246" duration="21061000" />
-      <workItem from="1587805154918" duration="5058000" />
+      <workItem from="1587805154918" duration="9985000" />
+      <workItem from="1587885034836" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1551800426816</created>
@@ -402,13 +401,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378651000" />
+    <option name="totallyTimeSpent" value="384771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,10 +418,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030257" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32569557" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4969743" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34697217" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4969743" weight="0.32733223" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -667,24 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1382">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/private/shared/user_header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="101" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -702,19 +686,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/private/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="105" column="3" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/private/classes/Session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="525">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
           <folding>
             <element signature="n#__construct#0;n#Session#0;n#!!top" />
             <element signature="n#login#0;n#Session#0;n#!!top" />
             <element signature="n#is_logged_in#0;n#Session#0;n#!!top" />
             <element signature="n#decrypt_cookie#0;n#Session#0;n#!!top" />
+            <element signature="n#is_remember_me#0;n#Session#0;n#!!top" />
+            <element signature="n#logout#0;n#Session#0;n#!!top" />
+            <element signature="n#check_stored_login#0;n#Session#0;n#!!top" />
             <element signature="n#last_login_is_recent#0;n#Session#0;n#!!top" />
             <element signature="n#message#0;n#Session#0;n#!!top" />
             <element signature="n#clear_message#0;n#Session#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
