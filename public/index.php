@@ -23,14 +23,17 @@ $photos = Photo::find_all();
         <button id="ajax-button" class="btn btn-info">Count Photos</button>
     </div>
 
-  
-
     <div class="row">
         <?php foreach ($photos as $photo) { ?>
+            <?php
+            $user = User::find_by_id($photo->user_id);
+            $photo->upload_dir = $user->username;
+            ?>
             <div class="col-md-4">
                 <div class="img-thumbnail">
-                    <a href="<?php echo $photo->image_path(); ?>">
-                        <img class="img-thumbnail" src="<?php echo $photo->image_path(); ?>">
+                    <a href="images/<?php echo $photo->image_path(); ?>">
+                        <?php echo $photo->image_path()?>
+                        <img class="img-thumbnail" src="images/<?php echo $photo->image_path(); ?>">
                         <div class="figure-caption text-center">
                             <p><?php echo h($photo->caption); ?><br>
                             <?php echo h(date("d-m-Y", strtotime($photo->created_at))); ?></p>

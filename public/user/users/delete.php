@@ -15,8 +15,21 @@ if($user == false) {
 
 if(is_post_request()) {
 
-    // Delete admin
+    // Delete user
     $result = $user->delete();
+    if ($result)
+    {
+        $files = glob(PUBLIC_PATH . '/images/' . $user->username . '/*');
+        foreach ($files as $file)
+        {
+            if (is_file($file))
+            {
+                unlink($file);
+            }
+        }
+
+        rmdir(PUBLIC_PATH . '/images/' . $user->username);
+    }
     $session->message('The user was deleted successfully.');
     redirect_to(url_for('/index.php'));
 

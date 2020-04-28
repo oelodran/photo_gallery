@@ -20,7 +20,7 @@ class Photo extends DatabaseObject
     public $created_at;
 
     private $temp_path;
-    protected $upload_dir = "images";
+    public $upload_dir = "";
     public $errors = [];
 
     protected $upload_errors = [
@@ -32,13 +32,13 @@ class Photo extends DatabaseObject
         UPLOAD_ERR_NO_TMP_DIR => "No temporary directory.",
         UPLOAD_ERR_CANT_WRITE => "Can't write to disk.",
         UPLOAD_ERR_EXTENSION => "File upload stopped by extension."
-        ];
+    ];
 
     // Pass in $_FILE['upload_file'] as an argument
     public function attach_file($file)
     {
         if (!$file || empty($file) || !is_array($file))
-        // Nothing uploaded or wrong argument usage
+            // Nothing uploaded or wrong argument usage
         {
             $this->errors[] = "No file was uploaded.";
             return false;
@@ -85,7 +85,7 @@ class Photo extends DatabaseObject
             }
 
             // Determine the target path
-            $target_path = PUBLIC_PATH . "/" . $this->upload_dir . "/" . $this->filename;
+            $target_path = PUBLIC_PATH . "/images/" . $this->upload_dir . "/" . $this->filename;
 
             // Check if file already exists
             if (file_exists($target_path))
@@ -121,7 +121,7 @@ class Photo extends DatabaseObject
         if ($this->delete())
         {
             // then remove the file
-            $target_path = PUBLIC_PATH . '/' . $this->image_path();
+            $target_path = PUBLIC_PATH . '/images/' . $this->image_path();
             return unlink($target_path) ? true : false;
         }
         else
@@ -133,7 +133,7 @@ class Photo extends DatabaseObject
 
     public function image_path()
     {
-       return $this->upload_dir. '/' .$this->filename;
+        return $this->upload_dir. '/' .$this->filename;
     }
 
     public function size_of_image()

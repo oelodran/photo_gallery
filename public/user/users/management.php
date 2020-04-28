@@ -31,9 +31,10 @@ if ($user_owner == false)
     <?php foreach($photos as $photo) { ?>
         <?php
             $user = User::find_by_id($photo->user_id);
+            $photo->upload_dir = $user->username;
         ?>
         <tr>
-            <td><img src="../../<?php echo $photo->image_path(); ?>" width="100" /></td>
+            <td><img src="../../images/<?php echo $photo->image_path(); ?>" width="100" /></td>
             <td><?php echo $photo->caption; ?></td>
             <td><?php echo $user->username; ?></td>
             <td><?php echo $user->email; ?></td>

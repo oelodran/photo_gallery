@@ -14,7 +14,7 @@ require_login();
 $max_file_size = 7864320; // 7.5 MB
 if (!isset($_GET['id']))
 {
- redirect_to(url_for('/index.php'));
+    redirect_to(url_for('/index.php'));
     echo "error";
 }
 
@@ -25,8 +25,10 @@ $message = "";
 
 if (is_post_request())
 {
-    global $user;
+    //global $user;
+    $user = User::find_by_id($_POST['user_id']);
     $photo = new Photo();
+    $photo->upload_dir = $user->username;
     $photo->user_id = $_POST['user_id'];
     $timestamp = time();
     $photo->created_at = date('Y-m-d G:i:s', $timestamp);

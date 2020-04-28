@@ -18,6 +18,8 @@ if (is_post_request())
     if ($result === true)
     {
         $new_id = $user->id;
+        // make new dir for storage photos of this user
+        mkdir(PUBLIC_PATH . '/images/' . $user->username);
         $session->message('The admin was created successfully.');
         redirect_to(url_for('/user/users/index.php?id=' . h($new_id)));
     }

@@ -11,6 +11,8 @@
   }
 
   $photo = Photo::find_by_id($_GET['id']);
+  $user = User::find_by_id($photo->user_id);
+  $photo->upload_dir = $user->username;
 
   if($photo && $photo->destroy())
   {
