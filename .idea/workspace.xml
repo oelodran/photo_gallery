@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c8b2ee01-b996-4f83-b324-75e165b945fb" name="Default" comment="Designing public/index page with bootstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/Photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/public_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/public_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/shared/user_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/shared/user_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/bamboo.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/user/photo/count_photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/photo/count_photos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/user/photo/delete_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/photo/delete_photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/user/photo/photo_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/photo/photo_upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/user/users/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/users/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/user/users/management.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/users/management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/user/users/new.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/users/new.php" afterDir="false" />
     </list>
     <list id="efaab886-80bc-459c-a8e4-b40bee53556b" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,58 +35,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/user/photo/count_photos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/shared/public_footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/user/users/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/user/photo/photo_upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/classes/Photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2271">
-              <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
-              <folding>
-                <element signature="e#537#991#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/user/users/management.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/user/photo/delete_photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="187">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -155,13 +115,13 @@
         <option value="$PROJECT_DIR$/private/classes/User.php" />
         <option value="$PROJECT_DIR$/public/user/users/new.php" />
         <option value="$PROJECT_DIR$/public/user/users/delete.php" />
-        <option value="$PROJECT_DIR$/public/user/photo/count_photos.php" />
         <option value="$PROJECT_DIR$/private/shared/user_header.php" />
         <option value="$PROJECT_DIR$/private/shared/public_header.php" />
         <option value="$PROJECT_DIR$/public/user/photo/photo_upload.php" />
         <option value="$PROJECT_DIR$/private/classes/Photo.php" />
         <option value="$PROJECT_DIR$/public/user/photo/delete_photo.php" />
         <option value="$PROJECT_DIR$/public/user/users/management.php" />
+        <option value="$PROJECT_DIR$/public/user/photo/count_photos.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
@@ -200,6 +160,19 @@
               <item name="gallery" type="b2602c69:ProjectViewProjectNode" />
               <item name="gallery" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +295,8 @@
       <workItem from="1587885034836" duration="7936000" />
       <workItem from="1587974232275" duration="5954000" />
       <workItem from="1588001534423" duration="1085000" />
-      <workItem from="1588054868112" duration="20312000" />
+      <workItem from="1588054868112" duration="23859000" />
+      <workItem from="1588140890178" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1551800426816</created>
@@ -399,13 +373,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418865000" />
+    <option name="totallyTimeSpent" value="424907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,7 +394,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33060557" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4969743" weight="0.32733223" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4969743" weight="0.32569557" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,20 +503,6 @@
     <entry file="file://$PROJECT_DIR$/public/stylesheets/my_stylesheet.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/shared/public_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/shared/user_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/user/users/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -649,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/photo/count_photos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/user/users/new.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -714,10 +667,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/private/shared/user_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/shared/public_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="187">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/photo/count_photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>

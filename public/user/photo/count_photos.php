@@ -7,19 +7,18 @@
  */
 require_once("../../../private/initialize.php");
 
-$folder_path = PUBLIC_PATH . '/images';
-//$count_file = (count(scandir($folder_path)) - 2);
-
-
-// Initialize the counter variable to 0
+$folder_path = PUBLIC_PATH . '/images/';
 $count_file = 0;
 
-if( $handle = opendir($folder_path) ) {
+$ite=new RecursiveDirectoryIterator($folder_path);
 
-    while( ($file = readdir($handle)) !== false ) {
-        if( !in_array($file, array('.', '..')) && !is_dir($folder_path.$file))
-            $count_file++;
+foreach (new RecursiveIteratorIterator($ite) as $filename) {
+
+    if (is_file($filename))
+    {
+        $count_file++;
     }
+
 }
 
 ?>

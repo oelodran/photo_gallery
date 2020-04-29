@@ -32,7 +32,6 @@ $photos = Photo::find_all();
             <div class="col-md-4">
                 <div class="img-thumbnail">
                     <a href="images/<?php echo $photo->image_path(); ?>">
-                        <?php echo $photo->image_path()?>
                         <img class="img-thumbnail" src="images/<?php echo $photo->image_path(); ?>">
                         <div class="figure-caption text-center">
                             <p><?php echo h($photo->caption); ?><br>
