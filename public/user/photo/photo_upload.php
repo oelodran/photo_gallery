@@ -15,7 +15,7 @@ $max_file_size = 7864320; // 7.5 MB
 if (!isset($_GET['id']))
 {
     redirect_to(url_for('/index.php'));
-    echo "error";
+    //echo "error";
 }
 
 $id = $_GET['id'] ?? '';
@@ -45,7 +45,9 @@ if (is_post_request())
     }
     else
     {
-        $session->message($photo->errors);
+        $_GET['id'] = $user->id;
+        redirect_to(url_for('user/photo/photo_upload.php?id=' . $user->id));
+        print_r($photo->errors);
     }
 }
 ?>
@@ -53,6 +55,7 @@ if (is_post_request())
 <?php include(SHARED_PATH . '/user_header.php'); ?>
 
 <div class="container mt-3">
+
     <form action="photo_upload.php" enctype="multipart/form-data" method="post" >
         <input type="hidden" name="MAX_FILE_SIZE" value="<?php echo $max_file_size; ?>" />
         <div class="form-group">

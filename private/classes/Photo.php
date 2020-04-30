@@ -49,6 +49,11 @@ class Photo extends DatabaseObject
             $this->errors[] = $this->upload_errors[$file['error']];
             return false;
         }
+        elseif ((pathinfo(basename($file['name']), PATHINFO_EXTENSION)) != 'jpg' && (pathinfo(basename($file['name']), PATHINFO_EXTENSION)) != 'png')
+        {
+            $this->errors[] = "You can only upload .jpg and .png formats";
+            return false;
+        }
         else
         {
             $this->temp_path  = $file['tmp_name'];

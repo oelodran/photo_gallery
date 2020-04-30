@@ -11,7 +11,18 @@ $session->is_remember_me();
 
 include (SHARED_PATH . '/public_header.php');
 
-$photos = Photo::find_all();
+// $photos = Photo::find_all();
+// Use pagination instead
+$current_page = $_GET['page'] ?? 1;
+$per_page = 3;
+$total_count = Photo::count_all();
+
+$pagination = new Pagination($current_page, $per_page, $total_count);
+
+$sql = "SELECT * FROM photos ";
+$sql .= "LIMIT {$per_page} ";
+$sql .= "OFFSET {$pagination->offset()}";
+$photos = Photo::find_by_sql($sql);
 ?>
 <div class="container">
     <h1 class="text-center mb-3 mt-3">Shared Gallery</h1>
@@ -43,5 +54,12 @@ $photos = Photo::find_all();
         <?php } ?>
     </div>
 </div>
+
+<?php
+
+$url = url_for('/index.php');
+echo $pagination->page_links($url);
+
+?>
 
 <?php include (SHARED_PATH . '/public_footer.php'); ?>
