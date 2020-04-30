@@ -4,18 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/private/functions.php" line="97" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b2ee01-b996-4f83-b324-75e165b945fb" name="Default" comment="Designing public/index page with bootstrap">
-      <change afterPath="$PROJECT_DIR$/private/classes/Pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/DatabaseObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/DatabaseObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/classes/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/classes/Photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Ford/ford1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Ford/ford2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Tex/tex1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/Tex/tex2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/user/photo/photo_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/user/photo/photo_upload.php" afterDir="false" />
-    </list>
+    <list default="true" id="c8b2ee01-b996-4f83-b324-75e165b945fb" name="Default" comment="Designing public/index page with bootstrap" />
     <list id="efaab886-80bc-459c-a8e4-b40bee53556b" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +33,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="441">
               <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/user/users/management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="297">
               <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
@@ -62,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/classes/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="-105">
               <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
@@ -71,13 +60,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/classes/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+            <state relative-caret-position="668">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="n#create#0;n#User#0;n#!!top" />
                 <element signature="n#update#0;n#User#0;n#!!top" />
                 <element signature="n#find_by_username#0;n#User#0;n#!!top" />
-                <marker date="1588060663520" expanded="true" signature="3619:3633" ph="SELECT * FRO... ${static::$table_name}" />
+                <marker date="1588238962930" expanded="true" signature="3587:3601" ph="SELECT * FRO... ${static::$table_name}" />
               </folding>
             </state>
           </provider>
@@ -101,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/user/users/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="481">
               <caret line="36" column="20" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="20" />
             </state>
           </provider>
@@ -169,7 +167,6 @@
         <option value="$PROJECT_DIR$/public/login.php" />
         <option value="$PROJECT_DIR$/private/classes/Session.php" />
         <option value="$PROJECT_DIR$/private/db_credentials.php" />
-        <option value="$PROJECT_DIR$/private/classes/User.php" />
         <option value="$PROJECT_DIR$/public/user/users/new.php" />
         <option value="$PROJECT_DIR$/public/user/users/delete.php" />
         <option value="$PROJECT_DIR$/private/shared/user_header.php" />
@@ -181,6 +178,7 @@
         <option value="$PROJECT_DIR$/public/user/photo/photo_upload.php" />
         <option value="$PROJECT_DIR$/private/classes/DatabaseObject.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/private/classes/User.php" />
       </list>
     </option>
   </component>
@@ -374,7 +372,7 @@
       <workItem from="1588001534423" duration="1085000" />
       <workItem from="1588054868112" duration="23859000" />
       <workItem from="1588140890178" duration="12112000" />
-      <workItem from="1588229644994" duration="1915000" />
+      <workItem from="1588229644994" duration="2204000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1551800426816</created>
@@ -451,13 +449,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436439000" />
+    <option name="totallyTimeSpent" value="436728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -677,51 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/classes/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/classes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding>
-            <element signature="n#create#0;n#User#0;n#!!top" />
-            <element signature="n#update#0;n#User#0;n#!!top" />
-            <element signature="n#find_by_username#0;n#User#0;n#!!top" />
-            <marker date="1588060663520" expanded="true" signature="3619:3633" ph="SELECT * FRO... ${static::$table_name}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/users/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/private/shared/user_header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/photo/photo_upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -765,15 +722,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="441">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/user/users/management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="297">
           <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/classes/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/classes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="n#create#0;n#User#0;n#!!top" />
+            <element signature="n#update#0;n#User#0;n#!!top" />
+            <element signature="n#find_by_username#0;n#User#0;n#!!top" />
+            <marker date="1588238962930" expanded="true" signature="3587:3601" ph="SELECT * FRO... ${static::$table_name}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/photo/photo_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/user/users/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="20" />
         </state>
       </provider>
     </entry>
